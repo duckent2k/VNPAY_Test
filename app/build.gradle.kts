@@ -56,5 +56,6 @@ dependencies {
 
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation("io.coil-kt:coil:2.3.0")
 
 }

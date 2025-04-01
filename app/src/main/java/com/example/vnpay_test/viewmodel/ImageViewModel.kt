@@ -11,7 +11,7 @@ import com.example.vnpay_test.data.ImageRepository
 class ImageViewModel(private val repository: ImageRepository) : ViewModel() {
     val imageFlow = Pager(
         PagingConfig(
-            pageSize = 10,
+            pageSize = 30,
             prefetchDistance = 5,
             enablePlaceholders = false
         )
